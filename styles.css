@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Anton&family=Elsie:wght@400;900&family=Genos:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kalam:wght@300;400;700&family=Playwrite+ZA:wght@100..400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background-color: #00AA99;
+}
+header{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+main{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+div{
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background: rgba(217, 217, 217, 0.2);
+    min-width: 320px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 10px px #ffffff;
+}
+h1,h2,h3{
+    font-family: 'Instrument sans', 'impact';
+    color: #ffffff;
+}
+h3{
+    font-weight: 400;
+}
+H2{
+    font-weight: 600;
+}
+.catdrawing{
+    display: flex;
+    justify-content: right;
+}
